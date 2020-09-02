@@ -18,3 +18,5 @@ print("Lista de esportes:",listaEsporte)
 
 listaGlobal = listaFilmes + listaJogos + listaLivros + listaEsporte
 print("Listas mescladas:", listaGlobal)
+
+print("Acesso a item da lista de livros:",(listaLivros[0]))
